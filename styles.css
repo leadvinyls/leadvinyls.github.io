@@ -1,0 +1,41 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.boton
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: auto;
+    margin-top: 40%;
+    cursor: pointer;
+    width: 50%;
+    height: 100px;
+    transition: background-color 0.5s, width 0.5s;
+}
+
+.boton:hover
+{
+    background-color: #88be8a;
+    width: 75%;
+    transition: background-color 0.5s, width 0.5s;
+}
+
+a
+{   
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 73px;
+    text-transform: uppercase;
+}
