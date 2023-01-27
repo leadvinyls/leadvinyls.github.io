@@ -1,0 +1,382 @@
+
+
+/*GENERALS///////////////////////////*/
+
+/*INITIALS////////////////////////////*/
+
+/*FONTS////////////////////////////*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*FONTS////////////////////////////*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    text-rendering: optimizeLegibility;
+    cursor: none;
+}
+
+:root{
+    --scroll-indicator-height: 0.5rem;
+    --menu-height: 40px;
+    --menu-gradient: 60px;
+}
+
+.testa-page-body{
+    display: block;
+    background-color: black;
+    width: 100%;
+    height: max-content;
+}
+
+#testa-cursor{
+    display: flex;
+    width: 15px;
+    height: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: white;
+    pointer-events: none;
+    border-radius: 100%;
+}
+
+/*INITIALS////////////////////////////*/
+
+
+
+/*PROGRESS-BAR////////////////////////////*/
+.testa-header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: transparent;
+}
+
+.testa-progress-container{
+    width: 100%;
+    height: var(--scroll-indicator-height);
+    background-color: transparent;
+}
+
+/* The progress bar (scroll indicator) */
+.testa-progress-bar{
+    width: 0%;
+    height: var(--scroll-indicator-height);
+    background-color: whitesmoke;
+    background-size: 100%;
+}
+/*PROGRESS-BAR////////////////////////////*/
+
+
+
+/*MENU////////////////////////////*/
+.testa-menu{
+    width: 100%;
+    padding-bottom: 60px;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    /*mix-blend-mode: difference;*/
+    
+}
+
+.testa-menu .testa-menu-list{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.testa-menu .testa-menu-item{
+    
+    padding: 1.5rem 3rem;
+    
+}
+
+.testa-menu .testa-menu-item a{
+    opacity: 70%;
+    block-size: fit-content;
+    transition: opacity 0.1s ease;
+
+    font-size: 0.98rem;
+    font-weight: 300;
+    text-transform:uppercase;
+    text-decoration: none;
+    color: white;
+    
+   
+}
+
+.testa-menu .testa-menu-item a:hover{
+    opacity: 100%;
+    color: #20E1CA;
+}
+
+.testa-menu .testa-menu-item a:active{
+    color: #20E1CA;
+    opacity: 70%;
+}
+
+.testa-menu .testa-menu-item a .testa-menu-underline{
+    display: block;
+    width: 0%;
+    border-bottom: 1.7px solid white;
+    transition: width 0.5s ease-out 0.1s;
+}
+
+.testa-menu .testa-menu-item a:hover .testa-menu-underline{
+    width: 100%;
+    border-color: #20E1CA;
+}
+
+.testa-menu .testa-menu-item a:active .testa-menu-underline{
+    border-color: #20E1CA;
+}
+/*MENU////////////////////////////*/
+
+
+
+/*HOME////////////////////////////*/
+#home{
+    height: 100vh;
+    background-color: black;
+    filter: grayscale(100%);
+     /*ELEMENT BACKGROUND*/
+     background-color: gray;
+     background-image: url(../images/image00003.png);
+     background-attachment: fixed;
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-blend-mode: multiply;
+}
+
+.testa-portada{
+
+    /*FONT*/
+    font-family: 'Playfair Display', serif;
+    color: white;
+    text-align: center;
+
+    /*ELEMENT*/
+    width: 100%;
+    height: calc(100vh);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    opacity: 100%;
+
+   
+}
+
+.testa-portada-title{
+    width: 100%;
+    opacity: 100%;
+
+    font-style: italic;
+    font-weight: 600;
+    font-size: 4.66rem;
+    letter-spacing: 0.1rem;
+    
+
+}
+
+.testa-portada-subtitle{
+    width: 100%;
+    padding-bottom: 3vh;
+    opacity: 100%;
+
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    letter-spacing: 1vw;
+   
+}
+/*HOME////////////////////////////*/
+
+
+
+/*WORK////////////////////////////*/
+#work{
+    height: 100vh;
+    background-color: black;
+}
+/*WORK////////////////////////////*/
+
+
+
+/*CONTACT////////////////////////////*/
+#contact{
+    height: 200vh;
+    background-color: blue ;
+}
+/*CONTACT////////////////////////////*/
+
+
+
+/*ABOUT////////////////////////////*/
+#about{
+    height: 100vh;
+    background-color: purple;
+}
+/*ABOUT////////////////////////////*/
+
+
+
+
+
+/*Desktop*/
+@media only screen and (orientation: landscape) {
+
+/*PROGRESS-BAR////////////////////////////*/
+/*PROGRESS-BAR////////////////////////////*/
+
+/*MENU////////////////////////////*/
+.testa-mobile{
+    display: none;
+}
+/*MENU////////////////////////////*/
+
+/*HOME////////////////////////////*/
+/*HOME////////////////////////////*/
+
+/*WORK////////////////////////////*/
+/*WORK////////////////////////////*/
+
+/*CONTACT////////////////////////////*/
+/*CONTACT////////////////////////////*/
+
+/*ABOUT////////////////////////////*/
+/*ABOUT////////////////////////////*/
+
+
+   
+
+    section{
+        width: 100%;
+    }
+}
+
+
+
+/*Tablet*/
+@media only screen and (orientation: portrait) {
+
+    /*PROGRESS-BAR////////////////////////////*/
+
+    /*NO CHANGES*/
+
+    /*PROGRESS-BAR////////////////////////////*/
+
+    /*MENU////////////////////////////*/
+
+    #testa-menu-icon{
+        display: block;
+        width: 10vw;
+        height: var(--menu-height);
+        position: fixed;
+        top: 0;
+        z-index: 2;
+        margin-top: 2vh;;
+        transition: color 0.5s ease, transform 0.5s ease;
+    }
+
+    .testa-menu{
+        display: none;
+    }
+
+    .testa-mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testa-mobile #testa-menu-js{
+        height: 100vh;
+        position: fixed;
+        top: -100%;
+        left: 0;
+        padding-top: calc(var(--menu-height) + 4vh + var(--scroll-indicator-height));
+        background-color: black;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        transition: top 0.5s ease;
+    }
+
+    .testa-mobile .testa-menu-list{
+        display: initial;
+    }
+
+    .testa-mobile .testa-menu-item a .testa-menu-underline{
+        display: block;
+        width: 100%;
+        border-bottom: 1.7px solid white;
+        transition: width 0.5s ease-out 0.1s;
+    }
+    /*MENU////////////////////////////*/
+
+    /*HOME////////////////////////////*/
+    #home{
+        background-image: url(../images/image00003-mobile.png);
+        font-size: 16px;
+    }
+
+    .testa-portada-title{
+        width: 100%;
+        opacity: 100%;
+        font-style: italic;
+        font-weight: 600;
+        font-size: 4.66em;
+        letter-spacing: 0.1em;
+    }
+    
+    .testa-portada-subtitle{
+        width: 100%;
+        padding-bottom: 3vh;
+        opacity: 100%;
+    
+        font-family: 'Work Sans', sans-serif;
+        font-size: 1em;
+        font-weight: 200;
+        letter-spacing: 1vw;
+       
+    }
+    /*HOME////////////////////////////*/
+
+    /*WORK////////////////////////////*/
+    /*WORK////////////////////////////*/
+
+    /*CONTACT////////////////////////////*/
+    /*CONTACT////////////////////////////*/
+
+    /*ABOUT////////////////////////////*/
+    /*ABOUT////////////////////////////*/
+    
+}
+
+/*Mobile*/
+
+/* The progress container (grey background) */
+
+
+
