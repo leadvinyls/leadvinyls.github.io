@@ -1,0 +1,10 @@
+.logo-container{
+    height: 100%;
+    display: block;
+    padding: 0;
+}
+
+.logo-container .logo{
+    display: block;
+    height: 100%;
+}
