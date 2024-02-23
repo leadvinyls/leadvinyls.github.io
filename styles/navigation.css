@@ -1,11 +1,12 @@
 .navigation{
     width: 100%;
-    height: 100px;
-    max-height: 100px;
+    height: 80px;
+    max-height: 80px;
     overflow: hidden;
-    display: grid;
-    grid-template-columns: 100px calc(100vw - 100px);
-    grid-template-rows: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    margin-bottom: 50px;
 }
 
 .navigation .navigation-list
@@ -24,6 +25,12 @@
     align-items: center;
     width: max-content;
     height: 100%;
+    transition: opacity 0.5s ease;
+}
+
+.navigation .navigation-list li:hover
+{
+    opacity: 70%;
 }
 
 .navigation .navigation-list li a
@@ -31,11 +38,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
     width: max-content;
     height: 100%;
     color: white;
     text-decoration: none;
-    padding: 10px 20px;
-    background-color: black;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 10px;
 }
