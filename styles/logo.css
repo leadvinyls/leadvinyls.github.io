@@ -6,5 +6,11 @@
 }
 
 .logo-container .logo{
+    text-align: center;
     font-size: 1.5rem;
+    transition: opacity 0.5s ease;
+}
+
+.logo-container:hover .logo{
+    opacity: 70%;
 }
