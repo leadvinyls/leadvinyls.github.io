@@ -1,3 +1,68 @@
-@media (max-width: 1024px) {
-    
+@media (max-width: 960px) {
+
+    .navigation .navigation-list
+    {
+        display: none;
+    }
+
+    .navigation
+    {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 80px;
+        max-height: 80px;
+        overflow: hidden;
+        padding: 0px 15px;
+        margin-bottom: 50px;
+    }
+
+    .logo-container
+    {
+        display: block;
+    }
+
+    .mobile-navigation-list
+    {
+        position: fixed;
+    }
+
+    .mobile-menu-button-container
+    {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        height: 80px;
+        margin-left: 15px;
+    }
+
+    .mobile-menu-button
+    {
+        display: block;
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+    }
+
+    .mobile-menu-button .open-menu
+    {
+        opacity: 100%;
+        position: absolute;
+        object-fit: contain;
+        fill: #fff;
+        z-index: 1;
+    }
+
+    .mobile-menu-button .close-menu
+    {
+        opacity: 0%;
+        position: absolute;
+        object-fit: contain;
+        fill: #fff;
+        z-index: 0;
+    }
+
 }

@@ -22,3 +22,8 @@ body{
 h1, h2{
     font-family: "Proza Libre", sans-serif;
 }
+
+main
+{
+    margin-top: 130px;
+}
