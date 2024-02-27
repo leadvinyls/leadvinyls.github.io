@@ -18,7 +18,7 @@ function showMenu()
         {
             openButton.style.opacity = "1";
             closeButton.style.opacity = "0";
-            menu.style.left = "-100%";
+            menu.style.left = "calc(-100vw + -30px)";
         }
        
     }

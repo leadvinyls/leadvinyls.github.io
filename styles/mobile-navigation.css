@@ -28,7 +28,7 @@
         list-style: none;
         position: absolute;
         top: 0;
-        left: -100%;
+        left: calc(-100vw + -30px);
         display: block;
         width: 100vw;
         height: 100lvh;
