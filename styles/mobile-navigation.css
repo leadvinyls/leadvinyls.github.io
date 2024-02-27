@@ -30,8 +30,8 @@
         top: 0;
         left: -100%;
         display: block;
-        width: 30vw;
-        height: 100vh;
+        width: 100vw;
+        height: 100lvh;
         transition: left 0.5s ease;
         padding-top: 130px;
         padding-left: 15px;
