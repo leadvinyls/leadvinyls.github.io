@@ -42,7 +42,7 @@
     align-items: center;
     width: max-content;
     height: 100%;
-    color: white;
+    color: var(--color-texto-secundario);
     text-decoration: none;
     text-align: center;
     font-size: 14px;
@@ -50,9 +50,10 @@
     padding: 5px 10px;
 }
 
-.mobile-navigation-list
+
+.mobile-navigation-list-container
 {
-    display: none;
+    display: none;  
 }
 
 .mobile-menu-button-container

@@ -1,4 +1,4 @@
-@media (max-width: 960px) {
+@media only screen and (max-width: 960px) {
 
     .navigation .navigation-list
     {
@@ -23,21 +23,28 @@
         display: block;
     }
 
+    .mobile-navigation-list-container
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 0vw;
+        height: 100lvh;
+        transition: left 0.5s ease, width 0.5s ease;
+        z-index: 0;
+        background-color: var(--color-primario);
+        border-right: 1px solid var(--color-texto-secundario);
+        overflow: hidden;
+    }
+
     .mobile-navigation-list
     {
         list-style: none;
-        position: absolute;
-        top: 0;
-        left: calc(-100vw + -30px);
+        text-wrap: nowrap;
         display: block;
-        width: 100vw;
-        height: 100lvh;
-        transition: left 0.5s ease;
         padding-top: 130px;
         padding-left: 15px;
-        z-index: 0;
-        background-color: #0b132b;
-        border-right: 1px solid white;
     }
 
     .mobile-menu-button-container
@@ -68,7 +75,7 @@
         position: absolute;
         object-fit: contain;
         object-position: center;
-        fill: #fff;
+        fill: var(--color-texto-secundario);
         transition: opacity 0.5s ease;
     }
 
@@ -78,7 +85,7 @@
         object-fit: contain;
         object-position: center;
         position: absolute;
-        fill: #fff;
+        fill: var(--color-texto-secundario);
         transition: opacity 0.5s ease;
     }
 

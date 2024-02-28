@@ -1,17 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 
+:root{
+    --color-primario:#D7DFEA;
+    --color-secundario: #1C2541;
+    --color-ternario: #3A506B;
+    --color-texto: #FFFFFF;
+    --color-texto-secundario: #0b132b;
+}
+
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    color: #D7DFEA;
+    color: var(--color-texto-secundario);
     max-width: 100vw;
 }
 
+html{
+    height: -webkit-fill-aviable;
+}
+
 body{
+    height: -webkit-fill-aviable;
     margin: auto;
-    background-color: #0b132b;
+    background-color: var(--color-primario);
     font-family: "Open Sans", sans-serif;
     max-width: 900px;
     display: flex;

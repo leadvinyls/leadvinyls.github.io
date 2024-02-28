@@ -3,14 +3,23 @@
     align-items: center;
     text-decoration: none;
     padding: 0;
+    user-select: none;
+    z-index: 1;
 }
 
 .logo-container .logo{
+    position: relative;
+    top: 2px;
     text-align: center;
-    font-size: 1.5rem;
-    transition: opacity 0.5s ease;
+    font-size: 1.6rem;
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 .logo-container:hover .logo{
     opacity: 70%;
+}
+
+.flip
+{
+    transform: rotate(360deg);
 }
