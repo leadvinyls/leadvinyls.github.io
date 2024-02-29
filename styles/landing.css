@@ -9,12 +9,11 @@ main{
 main h2, h3, h4, h5, h6{
     font-family: "Proza Libre", sans-serif;
     padding-bottom: 15px;
-    padding: 0 30px;
 }
 
 main p{
     text-align: justify;
-    padding: 0px 30px;
+    
 }
 
 main h1{
@@ -33,5 +32,19 @@ main h1{
 
 .landing-text{
     max-width: 900px;
+    padding: 0px 30px;
+    text-align: justify;
 }   
 
+.landing-text ul{
+    list-style-position: inside;
+}
+
+.landing-text ul li{
+    list-style-position: inside;
+    margin-bottom: 1rem;
+}
+
+.landing-text article{
+    margin-bottom: 30px;
+}
