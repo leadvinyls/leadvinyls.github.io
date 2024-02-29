@@ -14,7 +14,6 @@
     padding: 0;
     margin: 0;
     color: var(--color-texto-secundario);
-    max-width: 100vw;
 }
 
 html{
@@ -26,17 +25,16 @@ body{
     margin: auto;
     background-color: var(--color-primario);
     font-family: "Open Sans", sans-serif;
-    max-width: 900px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: var(--color-ternario);
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-size: 10px 10px;
 }
 
-h1, h2{
+h1, h2, h3, h4, h5, h6{
     font-family: "Proza Libre", sans-serif;
-}
-
-main
-{
-    margin-top: 130px;
 }
