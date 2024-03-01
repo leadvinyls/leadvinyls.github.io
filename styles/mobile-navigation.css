@@ -35,8 +35,11 @@
         transition: left 0.5s ease, width 0.5s ease;
         z-index: 0;
         background-color: var(--color-primario);
-        border-right: 1px solid var(--color-texto-secundario);
         overflow: hidden;
+        border-right: 1px solid var(--color-texto-secundario);
+        background-color: var(--color-primario);
+        background-image: radial-gradient(var(--color-texto-secundario) 0.5px, var(--color-primario) 0.5px);
+        background-size: 10px 10px;
     }
 
     .mobile-navigation-list

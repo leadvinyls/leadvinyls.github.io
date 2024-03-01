@@ -38,13 +38,31 @@ main h1{
 
 .landing-text ul{
     list-style-position: inside;
+    margin: 0px 30px;
 }
 
 .landing-text ul li{
-    list-style-position: inside;
+    list-style-position: outside;
     margin-bottom: 1rem;
 }
 
 .landing-text article{
     margin-bottom: 30px;
 }
+
+.landing-text .inline-list
+{
+    padding: 0;
+    margin: 0;
+}
+
+.landing-text .inline-list img{
+    height: 30px;
+    width: 30px;
+    display: inline;
+}
+
+.landing-text .inline-list li{
+    display: inline;
+}
+

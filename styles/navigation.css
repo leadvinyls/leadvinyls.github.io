@@ -7,8 +7,8 @@
     max-height: 80px;
     justify-content: space-between;
     padding: 0px 15px;
-    z-index: 1;
-    
+    z-index: 1;    
+    background-color: var(--color-primario);
 }
 
 .navigation .navigation-list
