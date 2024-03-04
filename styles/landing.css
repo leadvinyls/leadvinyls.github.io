@@ -18,6 +18,7 @@ main p{
 
 main h1{
     font-size: 1.7rem;
+    text-align: center;
 }
 
 .landing-screen{
@@ -66,3 +67,16 @@ main h1{
     display: inline;
 }
 
+.por-que-una-web ul li
+{
+    list-style: none;
+    list-style-position: outside;
+}
+
+.writing-bar 
+{
+    height: 1.6rem;
+    border-right: 2px solid var(--color-texto-secundario);
+    margin-left: 0.5rem;
+    transition: opacity 0.25s ease;
+}
