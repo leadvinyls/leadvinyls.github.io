@@ -38,7 +38,7 @@ const writeLetters = (element, textArray) =>
 
 let element = document.querySelector("h1");
 element.innerHTML = "";
-writeLetters(element, ["Web Developer", " ", "Graphic Designer", " "]);
+writeLetters(element, ["Web Developer    ", " ", "Graphic Designer    ", " "]);
 
 let bar = document.querySelector(".writing-bar");
 setInterval(()=>
