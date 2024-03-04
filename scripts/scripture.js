@@ -32,13 +32,13 @@ const writeLetters = (element, textArray) =>
             j = 0;
         }
         
-        setTimeout(() => {}, 1000);
+        
     }, 200);
 }
 
 let element = document.querySelector("h1");
 element.innerHTML = "";
-writeLetters(element, ["Web Developer", "Graphic Designer", " "]);
+writeLetters(element, ["Web Developer", " ", "Graphic Designer", " "]);
 
 let bar = document.querySelector(".writing-bar");
 setInterval(()=>
