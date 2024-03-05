@@ -45,10 +45,10 @@ setInterval(()=>
 {
     if(bar.style.opacity == 1)
     {
-        bar.style.opacity = "20%";
+        bar.style.opacity = 0;
     }
     else
     {
-        bar.style.opacity = "1";
+        bar.style.opacity = 1;
     }
 }, 500);

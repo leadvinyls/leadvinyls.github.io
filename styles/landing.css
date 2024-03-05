@@ -75,8 +75,10 @@ main h1{
 
 .writing-bar 
 {
+    display: block;
     height: 1.6rem;
-    border-right: 2px solid var(--color-texto-secundario);
-    margin-left: 0.5rem;
+    width: 4px;
+    background-color: var(--color-texto-secundario);
+    margin-left: 0.4rem;
     transition: opacity 0.25s ease;
 }
