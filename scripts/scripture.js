@@ -13,7 +13,7 @@ const writeLetters = (element, textArray) =>
         }
         else
         {
-            element.innerHTML = textArray[j].substring(0,i-1);
+            element.innerHTML = textArray[j].slice(0,i-1);
             i--;
         }
 
@@ -33,7 +33,7 @@ const writeLetters = (element, textArray) =>
         }
         
         
-    }, 200);
+    }, 100);
 }
 
 let element = document.querySelector("h1");
