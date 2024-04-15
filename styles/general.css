@@ -20,6 +20,14 @@ html{
     height: -webkit-fill-aviable;
 }
 
+main{
+    padding-top: 80px;
+}
+
+.landing-page{
+    padding-top: 0px;
+}
+
 body{
     height: -webkit-fill-aviable;
     margin: auto;

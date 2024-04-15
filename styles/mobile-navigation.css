@@ -37,7 +37,6 @@
         background-color: var(--color-primario);
         overflow: hidden;
         border-right: 1px solid var(--color-texto-secundario);
-        background-color: var(--color-primario);
         background-image: radial-gradient(var(--color-texto-secundario) 0.5px, var(--color-primario) 0.5px);
         background-size: 10px 10px;
     }
